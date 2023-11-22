@@ -195,6 +195,7 @@ As you can see, it's not just one regex, it's more than one. Each one is separat
     ^[\u2E80-\u9FFFa-zA-Z_<{$][\u2E80-\u9FFFa-zA-Z_0-9<>{}$.`-]*$
 
 To change the regex(es), you must know the short type name of the obfuscator (see help screen). Eg. it's `sa` if it's SmartAssembly, and `un` if it's an unsupported/unknown obfuscator. The option to use is `--TYPE-name` (eg. `--sa-name` for SmartAssembly and `--un-name` for unknown/unsupported obfuscators):
+test
 
     de4dot --un-name "^[a-zA-Z]\w*$" file1.dll
 
